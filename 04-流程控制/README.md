@@ -454,6 +454,7 @@ for(var i=0;i<5;i++){
 
 - `continue`关键字可以用来跳过当次循环
 - `continue`也是默认只会对离他最近的循环循环起作用
+- `continue` 也可搭配`label`使用
 
 
 
