@@ -437,6 +437,17 @@ console.timeEnd("test");
 
 循环语句使用`break`语句时，可以在`break`后跟着一个`label`，这样`break`将会结束指定的循环，而不是最近的
 
+label:循环语句
+
+outer:
+for(var i=0;i<5;i++){
+	console.log("@外层循环")
+	for(var j=0;j<5;j++){
+		break outer;
+		console.log("@外层循环");
+		}
+	}
+
 **continue**
 
 - `continue`关键字可以用来跳过当次循环
