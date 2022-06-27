@@ -439,6 +439,7 @@ console.timeEnd("test");
 
 label:循环语句
 
+```javascript
 outer:
 for(var i=0;i<5;i++){
 	console.log("@外层循环")
@@ -447,6 +448,7 @@ for(var i=0;i<5;i++){
 		console.log("@外层循环");
 		}
 	}
+```
 
 **continue**
 
