@@ -442,7 +442,7 @@ label:循环语句
 ```javascript
 outer:
 for(var i=0;i<5;i++){
-	console.log("@外层循环")
+	console.log("@外层循环");
 	for(var j=0;j<5;j++){
 		break outer;
 		console.log("@外层循环");
